@@ -1,6 +1,6 @@
-namespace Dotnet_project_template_test
+namespace BankAccountTest
 {
-    using Dotnet_project_template;
+    using BankAccount;
     using Xunit;
 
     public class UnitTest1
