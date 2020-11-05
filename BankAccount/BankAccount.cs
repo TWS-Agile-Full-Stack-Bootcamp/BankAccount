@@ -13,6 +13,7 @@ namespace BankAccount
             this.Owner = name;
             this.Number = accountNumberSeed.ToString();
             accountNumberSeed++;
+            MakeDeposit(initialBalance, DateTime.Now, "Initial balance");
         }
 
         public string Number { get; }
