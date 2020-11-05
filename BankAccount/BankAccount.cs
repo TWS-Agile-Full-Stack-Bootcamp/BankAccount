@@ -4,6 +4,7 @@ namespace BankAccount
     public class BankAccount
     {
         private static int accountNumberSeed = 1234567890;
+        private List<Transaction> allTransactions = new List<Transaction>();
 
         public BankAccount(string name, decimal initialBalance)
         {
